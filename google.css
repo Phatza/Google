@@ -1,0 +1,129 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: arial,sans-serif;
+}
+.nav {
+	padding-left: 153px;
+	margin-top: 23px;
+	height: 30%;
+	width: 100%;
+	float: right;
+	margin-right: 30px;
+}
+.a {
+	padding-left: 660px;
+	display: inline;
+	font-size: 12px;
+}
+a {
+	padding-left: 10px;
+	display: inline;
+	text-decoration: none;
+	color: #222;
+	font-size: 12px;
+}
+a:hover {
+	text-decoration: underline;
+}
+.cb {
+	display: inline-block;
+	float: right;
+}
+.carre {
+	float: left;
+	color: #000;
+	width: 17px;
+	height: 30px;
+    background-image: url(img/bappli.png);
+    background-repeat: no-repeat;
+}
+.button {
+	border-radius: 3%;
+	margin-left: 10px;
+	margin-top: -7px;
+	float: right;
+	width: 93px;
+	height: 30px;
+	background: transparent -moz-linear-gradient(center top , #4387FD, #4683EA) repeat scroll 0% 0%;;
+}
+h5 {
+	height: 17px;
+	margin-top: 7px;
+	margin-left: 12px;
+	color: white;
+	font-size: 13px;
+}
+.content {
+	padding-top: 150px;
+	display: block;
+	width: 100%;
+	height: 350px;
+	clear: both;
+}
+.logo {
+	margin: 0 auto;
+	width: 298px;
+	height: 122px;
+	background-image: url(img/logo.png);
+	padding: auto;
+	margin-bottom: 20px;
+}
+.bande {
+	width: 100%;
+}
+.bdr {
+	margin-top: 12px;
+	border: 1px solid #4D90FE;
+	width: 500px;
+	height: 27px;
+	margin: 0 auto;
+}
+.text {
+	padding-top: 4px;
+	padding-left: 16px;
+	border: medium none;
+	width: 466px;
+	height: 20px;
+	padding: 0 auto;
+}
+#submit {
+	margin-top: 20px;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.submit {
+	font-weight: bold;
+	margin-left: 10px;
+	border: 1px solid #C6C6C6;
+	font-size: 12px;
+	width: 122px;
+	height: 29px;
+	display: inline-block;
+}
+.footer {
+	margin-top: 50px;
+	display: block;
+	width: 100%;
+	height: 40px;
+	clear: both;
+	background: #F2F2F2 none repeat scroll 0% 0%;
+	border-top: 1px solid #E4E4E4;
+}
+.left > a {
+	color: #666;
+	padding-left: 25px;
+}
+.left {
+	margin-top: 10px;
+	float: left;
+}
+.right {
+	margin-top: 10px;
+	float: right;
+}
+.right > a {
+	color: #666;
+	padding-right: 25px;
+}
